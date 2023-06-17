@@ -12,7 +12,7 @@ class Website extends StatelessWidget {
   Widget build(BuildContext context) => MaterialApp(
         title: 'tkncl',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
           useMaterial3: true,
         ),
         home: const HomePage(title: 'tkncl'),
@@ -49,7 +49,7 @@ class _HomeViewState extends State<HomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _onFabClick,
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
